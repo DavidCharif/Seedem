@@ -1,4 +1,5 @@
 import './App.css'
+import CallToAction from './Components/CallToAction'
 import Features from './Components/Features'
 import Heading from './Components/Heading'
 import NavBar from './Components/NavBar'
@@ -10,6 +11,7 @@ function App() {
       <NavBar/>
       <Heading />
       <Features />
+      <CallToAction />
     </div>
   )
 }

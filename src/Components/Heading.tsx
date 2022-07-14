@@ -5,7 +5,7 @@ import illustration from '../images/illustration-working.svg'
 const Heading = () => {
   return (
     <div
-      className="flex flex-col-reverse items-center justify-between sm:mt-10 lg:ml-40 md:ml-30 sm:ml-10 sm:flex-row">
+      className="flex flex-col-reverse items-center justify-between sm:mt-10 lg:ml-40 md:ml-30 sm:ml-10 sm:flex-row mb-24">
       <div
         className="p-6 flex flex-col gap-3 w-full sm:w-4/5"
       >
