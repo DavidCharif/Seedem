@@ -16,7 +16,7 @@ const Features = () => {
         Track how your links are performing across the web with our advanced statistics dashboard.
       </p>
       <div
-        className='flex flex-col px-5 sm:gap-3 sm:flex-row sm:px-30 mt-20 sm:h-[600px]'
+        className='flex flex-col px-5 sm:gap-5 sm:flex-row sm:px-30 mt-20 sm:h-[600px] relative'
       >
         {
           dataColumns.map((data, key) => (
@@ -24,7 +24,12 @@ const Features = () => {
           ))
 
         }
-      </div></section>
+
+      <hr
+        className='tranform-y-[50%] border-t-[15px] border-primaryCyan mt-10 w-4/5 absolute sm:top-[30%] z-1 mx-auto sm:translate-x-[20%]'
+        />
+      </div>
+      </section>
   )
 }
 

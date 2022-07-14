@@ -21,7 +21,7 @@ interface Props {
 const Card: React.FC<Props> = ({ title, description, image, marginTop }) => {
   return (
     <div
-      className={`flex flex-col items-center gap-3 h-fit sm:w-4/5 bg-white px-10 py-10`}
+      className={`flex flex-col items-center gap-3 h-fit sm:w-4/5 bg-white px-10 py-10 z-10`}
       style={{
         marginTop: marginTop*15 + 'px'
       }}
